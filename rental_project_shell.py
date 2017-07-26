@@ -20,6 +20,11 @@ def print_brands():
     for brand in brands:
         print(brand)
 
+def list_vehicles():
+    vehicles = {'Chevrolet Silverado 4wd': 5, 'Chervolet Colorado 4wd': 4, 'Cherolet Tahoe 4wd': 3}
+    for vehicle in vehicles.items():
+        print (vehicle[0], ' ', vehicle[1])
+
 print('\n\nWELCOME TO VARGAS\' VEHICLE RENTAL COMPANY FOR OFFROAD!')
 time.sleep(1)
 
@@ -35,11 +40,13 @@ if step_1 == '1':
     slow_type('\n\n\nPlease Hit "ENTER" To View Our Brands Available!\n\n')
     print_brands()
 
-    brand_choice = slow_type('\n\n1Please Enter The Brand That You Are Most Interested In: ')
+    brand_choice = slow_type('\n\nPlease Enter The Brand That You Are Most Interested In: ')
 
-    # if brand_choice == '1':
-        #your code here
-        
+    if brand_choice == '1':
+        details = slow_type('\n\nTo Look At The List Of Vehicles Of This Brand Press "ENTER".\n\n\n')
+        list_vehicles()
+
+            
 
 # elif step_1 == '2':
 #     #your code here
