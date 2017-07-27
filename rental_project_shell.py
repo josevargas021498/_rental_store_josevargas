@@ -23,7 +23,29 @@ def print_brands():
 def list_vehicles():
     vehicles = {'Chevrolet Silverado 4wd': 5, 'Chervolet Colorado 4wd': 4, 'Cherolet Tahoe 4wd': 3}
     for vehicle in vehicles.items():
-        print (vehicle[0], ' ', vehicle[1])
+        print (vehicle[0], vehicle[1])
+
+def silverado(details):
+    """(str) -> (str)
+    Prints details for Chevrolet Silverado 4wd.
+    """
+    details = {
+        'Make': 'Chevrolet Silverado',
+        'Year Model': '2013',
+        'Color': 'Black',
+        'Drive Train': '4wd',
+        'Cabin': 'Crew Cab',
+        'Engine': '6.0L Vortec Max',
+        'Interior': ['Black Leather', 'Touch Screen Navigation Radio', 'Heated Seats', '5% Limo Tint All Around'],
+        'Exterior Off-Road Upgrades': 'Yes',
+        'Lift': '4.5 in. Suspension By Rough Country',
+        'Wheels': '22 in. Monster XD',
+        'Tires': 'Nitto Mud-Grappler',
+        'Light': ['52 in. Creed Light-Bar "24 in. In Front Brush-Guard"', 'Halo Projector w/ 12000k Blue HID "Low&High"'],
+        'Re-Enforcement': 'Ranch-Hand Brushguard ""Black" "Front&Back"'
+    }
+    for detail in details.items():
+        print(detail[0], detail[1])
 
 print('\n\nWELCOME TO VARGAS\' VEHICLE RENTAL COMPANY FOR OFFROAD!')
 time.sleep(1)
@@ -46,6 +68,15 @@ if step_1 == '1':
         details = slow_type('\n\nTo Look At The List Of Vehicles Of This Brand Press "ENTER".\n\n\n')
         list_vehicles()
 
+        step_2 = slow_type('\n\nWhich One Of These Vehicles Suit Your Needs The Most? ')
+        if step_2 == 'Chevrolet Silverado 4wd':
+            slow_type('\n\nPlese Hit "ENTER" To See Details On This Vehicle...\n\n\n\n ')
+            silverado(details)
+            print('\n\n\n\nk')
+
+
+
+        
             
 
 # elif step_1 == '2':
