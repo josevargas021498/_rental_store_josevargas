@@ -25,27 +25,85 @@ def list_vehicles():
     for vehicle in vehicles.items():
         print (vehicle[0], vehicle[1])
 
+
 def silverado(details):
     """(str) -> (str)
     Prints details for Chevrolet Silverado 4wd.
     """
-    details = {
-        'Make': 'Chevrolet Silverado',
-        'Year Model': '2013',
-        'Color': 'Black',
-        'Drive Train': '4wd',
-        'Cabin': 'Crew Cab',
-        'Engine': '6.0L Vortec Max',
-        'Interior': ['Black Leather', 'Touch Screen Navigation Radio', 'Heated Seats', '5% Limo Tint All Around'],
-        'Exterior Off-Road Upgrades': 'Yes',
-        'Lift': '4.5 in. Suspension By Rough Country',
-        'Wheels': '22 in. Monster XD',
-        'Tires': 'Nitto Mud-Grappler',
-        'Light': ['52 in. Creed Light-Bar "24 in. In Front Brush-Guard"', 'Halo Projector w/ 12000k Blue HID "Low&High"'],
-        'Re-Enforcement': 'Ranch-Hand Brushguard ""Black" "Front&Back"'
-    }
-    for detail in details.items():
-        print(detail[0], detail[1])
+    details = [
+        '\nMake And Model:', 'Chevrolet Silverado',
+        '\nYear Model:', '2013',
+        '\nEngine:', '6.0L Vortec Max',
+        '\nDrive Train:', '4WD',
+        '\nFuel:', 'Gasoline',
+        '\nColor:', 'Black',
+        '\nCabin:', 'Crew Cab',
+        '\nInterior:', 'Black Leather, Touch Screen Navigation Radio, Heated Seats, 5% Limo Tint All Around',
+        '\nExterior Off-Road Upgrades:', 'Yes',
+        '\nLift:', '4.5 in. Suspension By Rough Country',
+        '\nWheels:', '22 in. Monster XD',
+        '\nTires:', 'Nitto Mud-Grappler',
+        '\nLightening:', '52 in. Creed Light-Bar "24 in. In Front Brush-Guard, Halo Projector w/ 12000k Blue HID "Low&High"',
+        '\nRe-Enforcement:', 'Ranch-Hand Brushguard ""Black" "Front&Back"',
+        '\nTOTAL RETAIL PRICE: ', '$43,800\n'
+
+    ]
+    for detail in details:
+        print(detail)
+
+
+
+
+def colorado_details(details):
+    """ (str) -> (str)
+    Prints details for Chevrolet Colorado 4wd.
+    """
+    details = [
+        '\nMake And Model: Chevrolet Silverado'
+        '\nYear Model: 2012'
+        '\nEngine: 3.5 L Vortec'
+        '\nFuel: Gasoline'
+        '\nDrive Train: 4WD'
+        '\nColor: Silver'
+        '\nCabin: Crew Cab'
+        '\nInterior: Cloth, Touch Screen Navigating Radio, Roll Cage, 5% Limo Tint All Around'
+        '\nExterior Off-Road Upgrades: Yes'
+        '\nLift: 5 in. Suspension by Rough Country'
+        '\nWheels: 22 in. Fuel Rims "BLACK"'
+        '\nTires: 33 in. Nitto Trail-Grapplers'
+        '\nLightening: 45 in. Creed Lightbar "24 in. In Front Bull-Bar", 10000K HId "Low&High" w/ Spider Halo Rings'
+        '\nRe-Enforcement: Roll-Cage, Rough_Country Bull-Bar, Headlight & Tail-Light Covers'
+        '\nTOTAL RETAIl PRICE:  $26,400\n'
+    ]
+
+    for detail in details:
+        slow_type(detail)
+
+def tahoe(details):
+                """(str) -> (str)
+                Prints details for Chevrolet Tahoe 4wd.
+                """
+                details = [
+                    '\nMake And Model: ', 'Chevrolet Colorado',
+                    '\nYear Model: ', '2016',
+                    '\nEngine: ', '5.3 L Vortec',
+                    '\nFuel: ', 'Gasoline',
+                    '\nDrive Train: ', '4WD',
+                    '\nColor: ', 'Mossy Oak Vinyl',
+                    '\nCabin: ', 'Crew Cab "8 Passanger"',
+                    '\nInterior: ', 'Cloth, Touch Screen Navigating Radio, Dolby Surround Speakers "All Around You", Touch Screen TV/s All Around, A.C All Around',
+                    '\nExterior off-Road Upgrades: ', 'Yes',
+                    '\nLift: ', '3.5 Suspension By Rough Country',
+                    '\nWheels: ', '24 in. Rock-Star XD "Black"',
+                    '\nTires: ', '35 in. Nitto Trail Grapplers',
+                    '\nLightening: ', '52 in. Creed Light-Bars "STACKED", GO-Light, Fog Lamps "HID 6000K", 32 in. LED Lightbars X2"Facing Backwards Reverse"',
+                    '\nRe-Enforcement: ', 'Out-Law Winch Mount Guard "Front", Ranch-Hand Rear Tailight Guards, Wind-Shield Protector Bar',
+                    '\nTOTAL RETAIL PRICE: ', '$54,200\n'
+                ]
+                
+                for detail in details:
+                    print(detail)
+
 
 print('\n\nWELCOME TO VARGAS\' VEHICLE RENTAL COMPANY FOR OFFROAD!')
 time.sleep(1)
@@ -69,10 +127,18 @@ if step_1 == '1':
         list_vehicles()
 
         step_2 = slow_type('\n\nWhich One Of These Vehicles Suit Your Needs The Most? ')
+
         if step_2 == 'Chevrolet Silverado 4wd':
-            slow_type('\n\nPlese Hit "ENTER" To See Details On This Vehicle...\n\n\n\n ')
+            slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
             silverado(details)
-            print('\n\n\n\nk')
+
+        elif step_2 == 'Chevrolet Colorado 4wd':
+            slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n\n')
+            colorado_details(details)
+        
+        elif step_2 == 'Chevrolet Tahoe 4wd':
+            slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n\n')       
+            tahoe(details)
 
 
 
