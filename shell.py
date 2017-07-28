@@ -20,7 +20,7 @@ def print_brands():
     for brand in brands:
         print(brand)
 
-def list_vehicles(chevrolet):
+def list_vehicles():
     vehicles = {'Chevrolet Silverado 4wd': 5, 'Chervolet Colorado 4wd': 4, 'Cherolet Tahoe 4wd': 3}
     for vehicle in vehicles.items():
         print (vehicle[0], vehicle[1])
@@ -104,17 +104,69 @@ def tahoe(details):
                 for detail in details:
                     print(detail)
 
-def list_vehicles(GMC):
+def list_gmc_vehicles():
     """(str) -> (str)
-    Prints List 
-    """ 
+    Prints vehicles for the brand GMC.
+    """
     vehicles = [
-        '2013 GMC Sierra 1500 z71',
-        '2011 GMC Sierra 2500 DuraMax z71',
-        '2017 GMC Denali Super Sport z71'
-    ]
-    for vehicle in vehicles.items():
+        '1. 2013 GMC Sierra 1500 z71',
+        '2. 2011 GMC Sierra 2500 HD DuraMax z71',
+        '3. 2017 GMC Denali High Country HD z71'
+        ]
+    
+    for vehicle in vehicles:
         print(vehicle)
+
+def sierra():
+    """(str) -> (str)
+    Prints Details For 2013 GMC Sierra 1500 z71
+    """
+    details = [
+        '\nMake And Model: ', 'GMC Sierra 1500 z71',
+        '\nYear Model: ', '2013',
+        '\nEngine: ', '5.3 L Vortec',
+        '\nFuel: ', 'Gasoline',
+        '\nDrive Train: ', '4WD',
+        '\nColor: ', 'Gray',
+        '\nCabin: ', 'Crew Cab',
+        '\nInterior: ', 'Touch Screen Navigation Radion, Monitor + TV Behind Pass.& Driver Seat, Surround Lightening, Black Leather, 5% Limo Tint (All Around), Heated seats',
+        '\nExterior Off-Road Upgrades: ', 'Yes',
+        '\nLift: ', '5 in. Suspension By Rough Country',
+        '\nWheels: ', '20 in. Stock 2015 Rims ("Black&Chrome")',
+        '\nTires: ', '33 in. Nitto Mud Grapplers',
+        '\nLightening: ', 'K.C Fog Lights X2(Roof), 32 in. LED Light Bars X2(Reverse), Go Light',
+        '\nRe-Enforcement: ', 'Ranch Hand Front Bumper "Black" w/ Grill Guard, Custom Rear Bumper Open Country "Black", Bush Wacker Fender Flares',
+        '\nTOTAL RETAIL PRICE: ', '$39,800'
+        ]
+    for detail in details:
+        print(detail)
+
+def sierra_duramax():
+                """(str)->(str)
+                Prints Details For 2011 GMC Sierra 2500 HD DuraMax z71.
+                """
+
+                details = [
+                    '\nMake And Make Model: ', 'GMC 2500 HD DuraMax z71',
+                    '\nYear Model: ', '2011',
+                    '\nEngine: ' , '6.6 L DuraMax V8 SuperCharged',
+                    '\nFuel: ', 'Diesel',
+                    '\nDrive Train: ', '4WD',
+                    '\nColor: ', 'Brown',
+                    '\nCabin: ', 'Crew Cab',
+                    '\nInterior: ', 'Fully Loaded, HD Monitors All Around, Pressure Gauges, A.C (All Around), Black Leather Seats (Heated), 2.5% Limo Tint All Around, Allison Transmission Easy Manual Shifter, Bully Dog Programer',
+                    '\nExterior Off-Road Upgrades: ', 'Yes',
+                    '\nLift: ', '7.5 in. Suspension ("By Rough Country"), 2.5 in. Body ("By Rough Country")',
+                    '\nWheels: ', '37 in. Moto Metal XtReMe Rims (Black)',
+                    '\nTires: ', '40 in. low.prof Nitto Mud Grappler',
+                    '\nLightening: ', '52 in. Halo Concepts Lightbar, 52 in. Creed Lightbar (STACKED IN ROOF RACK), Fog Life LED Spot Lights, 10000K Hid (low&high), 52 in. 6000K HID Projector (Reverse) By Rough Country)',
+                    '\nRe-Enforcement: ', 'Full Rough Country Bumper Re-Enforcement (bumper"black", grill"black", brush guard "black"), Rear Bumper by Rough Country',
+                    '\nTOTAL RETAIL PRICE: ', '$62,500'
+                ]
+
+                for detail in details:
+                    print(detail)
+
 
 print('\n\nWELCOME TO VARGAS\' VEHICLE RENTAL COMPANY FOR OFFROAD!')
 time.sleep(1)
@@ -134,8 +186,8 @@ if step_1 == '1':
     brand_choice = slow_type('\n\nPlease Enter The Brand That You Are Most Interested In: ')
 
     if brand_choice == '1':
-        slow_type('\n\nTo Look At The List Of Vehicles Of This Brand Press "ENTER".\n\n\n')
-        list_vehicles(chevrolet)
+        details = slow_type('\n\nTo Look At The List Of Vehicles Of This Brand Press "ENTER".\n\n\n')
+        list_vehicles()
 
         step_2 = slow_type('\n\nWhich One Of These Vehicles Suit Your Needs The Most? ')
 
@@ -151,15 +203,24 @@ if step_1 == '1':
             slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n\n')       
             tahoe(details)
 
-
     elif brand_choice == '2':
         slow_type('\n\nTo Look At The List Of Vehicles Of This Brand Press "ENTER".\n\n\n ')
-        list_vehicles(GMC)
+        list_gmc_vehicles()
+        step_2 = slow_type('\n\nWhich Vehicle Suits You The Best? Please Choose.\n\n')
+        if step_2 == '1':
+            slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
+            sierra()
 
+        elif step_2 == '2':
+            slow_type('\n\nPlease hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
+            sierra_duramax()
+
+        elif step_2 == '3':
+             slow_type('\n\nPlease hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
+             def denali():
+                 """(str) -> (str)
+                 Prints Details For 2017 GMC Denali High Country HD z71
         
-        step_2 = slow_type('\n\nplease Hit "Enter" To Take A Look At The Details On The Chevrolelt Sierra 4WD. ')
-        sierra(details)
-
         
             
 
