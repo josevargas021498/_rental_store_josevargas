@@ -2,6 +2,9 @@ import time, sys
 import core
 import disk
 
+
+
+
 def main():
 
     typing_speed = 12
@@ -315,7 +318,7 @@ def main():
         for detail in details: 
             print(detail)
 
-    def application():
+
         print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
         time.sleep(1)
         name = slow_type('\n\nName: ')
@@ -359,27 +362,68 @@ def main():
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
+                def application():
+                    print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(1)
+                    name = slow_type('\n\nName: ')
+                    age = slow_type('\n\nAge: ')
+                    job = slow_type('\n\nJob: ')
+                    income = slow_type('\n\nWeekly Income: ')
+                    residency = slow_type('\n\nResidency *STATE ONLY* : ')
+                    expenses = slow_type('\n\nWeekly Expenses: ')
+                    vehicle = slow_type('\nVehicle Renting: ')
+                    weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                    
+                    time.sleep(.5)
+                    approval = str(income) - str(expenses)
+                    print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
+                    time.sleep(1)
+                    slow_type('WE ARE ABOUT TO RUN YOUR APPLICATION THROUGH OUR SYSTEM.\n \
+                    RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
+                    IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
+                    IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
+                    \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                    time.sleep(2)
+                    print('\n\n\n\nProcessing Application...\n\n\n')
+                    time.sleep(1)
+                    print('\n\n\nWe Are Almost There...\n\n\n')
+                    time.sleep(2)
+                    slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
+
+                    if age < '21':
+                        print('\n\nChallenging A Red Flag...\n\n')
+                        time.sleep(1)
+                        print('\n\nDECLINED! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM US. \nTHANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                        time.sleep(2)
+                        exit()
+                    elif income < '300':
+                        print('\n\nChallenging A Red Flag...\n\n')
+                        time.sleep(1)
+                        print('DECLINED! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $300 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                        time.sleep(2)
+                        exit()
+
+
+                    elif residency != 'MS':
+                        print('\n\nChallenging A Red Flag...\n\n')
+                        time.sleep(1)
+                        print('\n\nDECLINED! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                        time.sleep(2)
+                        exit()
+                    elif approval < '300':
+                        print('\n\nChallenging A Red Flag...\n\n')
+                        time.sleep(2)
+                        print('\n\nDECLINED! SORRY, YOU MUST HAVE AN AMOUNT OF AT LEAST $300 WEEKLY TO RENT THIS VEHICLE! \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS! HAVE A GREAT DAY!')
+                        time.sleep(2)
+                        exit()
+
+                    else:
+                        print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    
+                    
+
                 application()
-                time.sleep(.5)
-                print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
-                time.sleep(1)
-                slow_type('WE ARE ABOUT TO RUN YOUR APPLICATION THROUGH OUR SYSTEM.\n \
-                RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
-                IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
-                IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
-                time.sleep(2)
-                print('\n\n\n\nProcessing Application...\n\n\n')
-                time.sleep(1)
-                print('\n\n\nWe Are Almost There...\n\n\n')
-                time.sleep(2)
-                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
-                def app_results(name):
-                    if age >= '21':
-                        print(name)
-
-                app_results(name)                    
-
+                
 
 
             elif step_2 == '2':
@@ -605,32 +649,32 @@ def main():
                     time.sleep(1)
                     silverado(details)
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
                 elif details == '2':
                     print('\n\nLoading 2013 Chevrolet Colorado z71 Details...\n\n')
                     time.sleep(2)
                     colorado_details(details)
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
                 elif details == '3':
                     print('\n\nLoading 2015 Chevrolet Tahoe 1500 z71 Details...\n\n')
                     time.sleep(2)
                     tahoe(details)
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
                 elif details == '4':
                     print('\n\nLoading 2007 Chevrolet Silverado DuraMax 2500 HD z71 Unique Edition Details...\n\n')
                     time.sleep(2)
                     silverado_duramax()
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
             elif brand_choice == '2':
                 print('\n\n\n\n\n\nLoading GMC Inventory...\n\n\n\n\n')
@@ -644,24 +688,24 @@ def main():
                     time.sleep(2)
                     sierra()
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
                 elif details == '2':
                     print('\n\n\nLoading 2011 GMC Sierra 2500 HD DuraMax z71 Details...\n\n\n\n')
                     time.sleep(2)
                     sierra_duramax()
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
                 elif details == '3':
                     print('\n\n\nLoading 2017 GMC Yukon Denali High Country HD z71 Details...\n\n\n')
                     time.sleep(2)
                     denali()
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
             elif brand_choice == '3':
                 print('\n\n\n\n\nLoading Ford Inventory...\n\n\n\n\n\n')
@@ -675,24 +719,24 @@ def main():
                     time.sleep(2)
                     f150_platinum()
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
                 elif details == '2':
                     print('\n\nLoading 2013 Ford F-150 Raptor Details...\n\n')
                     time.sleep(2)
                     raptor()
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
                 elif details == '3':
                     print('\n\nLoading 2017 Ford F-250 PowerStroke Details...\n\n')
                     time.sleep(2)
                     powerstroke()
                     time.sleep(2)
-                    exit = slow_type('To Check Another Vehicle Out Please Press "ENTER".            To Exit Program Please Type "STOP". ')
-                    if exit == 'STOP':
+                    EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
+                    if EXIT== 'STOP':
                         break
 
 
