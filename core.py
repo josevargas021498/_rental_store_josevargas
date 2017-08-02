@@ -1,6 +1,5 @@
 
 
-
 def main():
 
     typing_speed = 12
@@ -43,7 +42,7 @@ def main():
         Prints details for Chevrolet Silverado 2500 z71.
         """
         details = [
-            '\nMake And Model:', 'Chevrolet Silverado 2500 z71',
+            'Make And Model:', 'Chevrolet Silverado 2500 z71',
             '\nYear Model:', '2013',
             '\nEngine:', '6.0L Vortec Max',
             '\nDrive Train:', '4WD',
@@ -57,7 +56,8 @@ def main():
             '\nTires:', 'Nitto Mud-Grappler',
             '\nLightening:', '52 in. Creed Light-Bar "24 in. In Front Brush-Guard, Halo Projector w/ 12000k Blue HID "Low&High"',
             '\nRe-Enforcement:', 'Ranch-Hand Brushguard ""Black" "Front&Back"',
-            '\nTOTAL RETAIL PRICE: ', '$41,800\n'
+            '\nRental Cost *Per Week* :', '$300',
+            '\nTOTAL RETAIL PRICE: ', '$41,800'
 
         ]
         for detail in details:
@@ -85,6 +85,7 @@ def main():
             '\n\n\nTires: 33 in. Nitto Trail-Grapplers'
             '\n\n\nLightening: 45 in. Creed Lightbar "24 in. In Front Bull-Bar", 10000K HId "Low&High" w/ Spider Halo Rings'
             '\n\n\nRe-Enforcement: Roll-Cage, Rough_Country Bull-Bar, Headlight & Tail-Light Covers'
+            '\n\n\nRental Cost *Per Week* : $200'
             '\n\n\nTOTAL RETAIl PRICE:  $26,400\n'
         ]
 
@@ -110,6 +111,7 @@ def main():
                     '\nTires: ', '35 in. Nitto Trail Grapplers',
                     '\nLightening: ', '52 in. Creed Light-Bars "STACKED", GO-Light, Fog Lamps "HID 6000K", 32 in. LED Lightbars X2"Facing Backwards Reverse"',
                     '\nRe-Enforcement: ', 'Out-Law Winch Mount Guard "Front", Ranch-Hand Rear Tailight Guards, Wind-Shield Protector Bar',
+                    '\nRental Cost *Per Week* : ', '$385',
                     '\nTOTAL RETAIL PRICE: ', '$54,200\n'
                 ]
                 
@@ -135,6 +137,7 @@ def main():
             '\nTires: ', 'Nitto Mud Grapplers "Extreme Edition"',
             '\nLightening: ', 'BLACKED OUT EVERYTHING, Halo Spider Projector Headlights w/ 12000K HID "Low&High""Blacked Out", Police Interceptor Spot Lights "Driver&Pass.", "White Underglow", Full Front LED Lightening "Inside Grill and Bumpers", 4 in. Halo Pods On Fog Lights, Roof Rack w/ 52 in. Lightbar Around X4 "Creed", Go-Light, Rear 24 in. Creed Lightbar X2 "Tool Box", SpotLights by Remote Control In Fenders, LED Reverse Spider tailights',
             '\nRe-Enforcement: ', 'Full Marine Steel Grill + Bumper + Headlight  Guards + Hood + Fender, Metal Body, Full Marine Rear Bumper + Tail Gate + Tailight Guard, Windshield Protector Bar Cage, Lightbar Rack "Protector", HD Mirror Bar, Tire Armor',
+            '\nRent Cost *Per Week* : ', '$1,000',
             '\nTOTAL RETAIL PRICE: ', '$100,000'
         ]
 
@@ -173,6 +176,7 @@ def main():
             '\nTires: ', '33 in. Nitto Mud Grapplers',
             '\nLightening: ', 'K.C Fog Lights X2(Roof), 32 in. LED Light Bars X2(Reverse), Go Light',
             '\nRe-Enforcement: ', 'Ranch Hand Front Bumper "Black" w/ Grill Guard, Custom Rear Bumper Open Country "Black", Bush Wacker Fender Flares',
+            '\nRental Cost *Per Week* : ', '$340',
             '\nTOTAL RETAIL PRICE: ', '$39,800'
             ]
         for detail in details:
@@ -198,6 +202,7 @@ def main():
                     '\nTires: ', '40 in. low.prof Nitto Mud Grappler',
                     '\nLightening: ', '52 in. Halo Concepts Lightbar, 52 in. Creed Lightbar (STACKED IN ROOF RACK), Fog Life LED Spot Lights, 10000K Hid (low&high), 52 in. 6000K HID Projector (Reverse) By Rough Country)',
                     '\nRe-Enforcement: ', 'Full Rough Country Bumper Re-Enforcement (bumper"black", grill"black", brush guard "black"), Rear Bumper by Rough Country',
+                    '\nRental Cost *Per Week* : ', '$500',
                     '\nTOTAL RETAIL PRICE: ', '$57,500'
                 ]
 
@@ -223,6 +228,7 @@ def main():
             '\nTires: ', 'Nitto Trail Grappler',
             '\nLightening: ', 'Halo Concepts Projector On Headlights, Custom 12000K HID "Low&High", 52 in. Halo Concepts Lightbar "Hood", 32 in. Halo Concepts Lightbar "Brushguard", 12 in. Halo Concepts Lightbar X2 "Bed Rails""BACKWARDS", GO-Light',
             '\nRe-Enforcement: ', 'Custom Made Full Metal Fenders And Bumper + Grill, Costom Made Full Metal "Rear" Bumper, Bush-Waker Fender Flares, Windshield Pretection Bar,'
+            '\nRental Cost *Per Week* : ', '$430',
             '\n\nTOTAL RETAIL PRICE: ' , '$53,700'
         ]
         for detail in details:
@@ -259,6 +265,7 @@ def main():
             '\nTires: ', '37 in. Nitto Mud Grapples',
             '\nLightening: ', '52 in. LED Lightbar "roof" ',
             '\nRe-Enforcement: ', 'Full Ranch Hand Bumper "Grille and Bumper + Headlight Protector + Windshield Bar Protector, Rear Full Ranch Hand Metal Guard "Tailights',
+            '\nRent Cost *Per Week* : ', '$350',
             '\nTOTAL RETAIL PRICE: ', '$44,800\n'
         ]
 
@@ -284,9 +291,48 @@ def main():
             '\nTires: ', 'Nitto Mud Grapplers',
             '\nLightening: ', '52 in. Creed Lightbar "ROOF", Halo Concepts "HEADLIGHTS&TAILIGHTS", Go-Light, K.C Lights In BrushGuard, Reverse LED Pods',
             '\nRe-Enforcement: ', 'Ranch Hand Brush Guard, Bush Wacker Fender Flares, Roll Cage',
+            '\nRent Cost *Per Week* :', '$550',
             '\nTOTAL RETAIL PRICE: ', '$68,900\n'
         ]
         for detail in details:
             print(detail)
 
     def powerstroke():
+        """(str) -> (str)
+        Prints Details For 2017 Ford F-250 PowerStroke.
+        """
+        details = [
+            '\nMake And Make Model: ', 'Ford F-250 PowerStroke',
+            '\nYear Model: ', '2017',
+            '\nEngine: ', '7.3 L PowerStroke',
+            '\nFuel: ', 'Diesel',
+            '\nDrive Train: ', '4WD',
+            '\nColor: ', 'Black',
+            '\nCabin: ', 'Crew Cab',
+            '\nInterior: ', 'Touch Screen Navigating Radio, Touch Screen Air Control, Sensor Display In Plasma Screen, Custom Interior "Texas Leather", Rear A.C, Programer Control, Fully Loaded',
+            '\nExterior Off-Road Upgrades: ', 'Yes',
+            '\nLift: ', '4.5 in. Suspesion By Rough Country',
+            '\nWheels: ', '35 in. Monster XD "Black&Silver" Rims',
+            '\nTires: ', '40 in. Nitto Mud Grappler',
+            '\nLightening: ', '52 in. Halo Concept Lightbar X2 "STACKED" "FRONTWARDS AND BACKWARDS", Blacked Out Halo Concept Headlights, Blacked Out Halo Taillights, 10000K HID "Low&High"',
+            '\nRe-Enforcement: ', 'Ranch Hand Blacked Out Bumper, Ranch Hand Blacked Out Steel Rear Bumper, Rack Protector, Bush Wacker Fender Flares, Police Interceptor SpotLight "Driver Side"',
+            '\nRent Cost *Per Week* : ', '$450',
+            '\nTOTAL RETAIL PRICE: ', '$59,900\n'
+        ]
+
+        for detail in details: 
+            print(detail)
+
+    def check_out():
+                        vehicle_rent = int(weeks) * step_2
+                        sales_tax = 0.07
+                        total_tax = int(vehicle_rent) * float(sales_tax) + int(vehicle_rent)
+                        replacement_value = 0.10 * vehicle_retail_price
+                        total_cost = total_tax + replacement_value
+                        print('Thank You For Renting From Vargas\' Off-Road Rentals! \n\nYour Total Rent Cost is ' + '$' + str(total_cost) + '. Have A Wonderful Day!')
+
+    def totaled():
+        sales_tax = 0.07
+        totaled_vehicle_price = replacement_value * sales_tax + replacement_value
+        print('I Am Very Sorry About Your Accident. Your Replacement Cost is $' + str(replacement_value) + ' plus 7% tax, \n\nWhich Equals to $' + str(totaled_vehicle_price))
+    
