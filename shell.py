@@ -47,7 +47,7 @@ def main():
         Prints details for Chevrolet Silverado 2500 z71.
         """
         details = [
-            '\nMake And Model:', 'Chevrolet Silverado 2500 z71',
+            'Make And Model:', 'Chevrolet Silverado 2500 z71',
             '\nYear Model:', '2013',
             '\nEngine:', '6.0L Vortec Max',
             '\nDrive Train:', '4WD',
@@ -61,7 +61,8 @@ def main():
             '\nTires:', 'Nitto Mud-Grappler',
             '\nLightening:', '52 in. Creed Light-Bar "24 in. In Front Brush-Guard, Halo Projector w/ 12000k Blue HID "Low&High"',
             '\nRe-Enforcement:', 'Ranch-Hand Brushguard ""Black" "Front&Back"',
-            '\nTOTAL RETAIL PRICE: ', '$41,800\n'
+            '\nRental Cost *Per Week* :', '$300',
+            '\nTOTAL RETAIL PRICE: ', '$41,800'
 
         ]
         for detail in details:
@@ -89,6 +90,7 @@ def main():
             '\n\n\nTires: 33 in. Nitto Trail-Grapplers'
             '\n\n\nLightening: 45 in. Creed Lightbar "24 in. In Front Bull-Bar", 10000K HId "Low&High" w/ Spider Halo Rings'
             '\n\n\nRe-Enforcement: Roll-Cage, Rough_Country Bull-Bar, Headlight & Tail-Light Covers'
+            '\n\n\nRental Cost *Per Week* : $200'
             '\n\n\nTOTAL RETAIl PRICE:  $26,400\n'
         ]
 
@@ -114,6 +116,7 @@ def main():
                     '\nTires: ', '35 in. Nitto Trail Grapplers',
                     '\nLightening: ', '52 in. Creed Light-Bars "STACKED", GO-Light, Fog Lamps "HID 6000K", 32 in. LED Lightbars X2"Facing Backwards Reverse"',
                     '\nRe-Enforcement: ', 'Out-Law Winch Mount Guard "Front", Ranch-Hand Rear Tailight Guards, Wind-Shield Protector Bar',
+                    '\nRental Cost *Per Week* : ', '$385',
                     '\nTOTAL RETAIL PRICE: ', '$54,200\n'
                 ]
                 
@@ -139,6 +142,7 @@ def main():
             '\nTires: ', 'Nitto Mud Grapplers "Extreme Edition"',
             '\nLightening: ', 'BLACKED OUT EVERYTHING, Halo Spider Projector Headlights w/ 12000K HID "Low&High""Blacked Out", Police Interceptor Spot Lights "Driver&Pass.", "White Underglow", Full Front LED Lightening "Inside Grill and Bumpers", 4 in. Halo Pods On Fog Lights, Roof Rack w/ 52 in. Lightbar Around X4 "Creed", Go-Light, Rear 24 in. Creed Lightbar X2 "Tool Box", SpotLights by Remote Control In Fenders, LED Reverse Spider tailights',
             '\nRe-Enforcement: ', 'Full Marine Steel Grill + Bumper + Headlight  Guards + Hood + Fender, Metal Body, Full Marine Rear Bumper + Tail Gate + Tailight Guard, Windshield Protector Bar Cage, Lightbar Rack "Protector", HD Mirror Bar, Tire Armor',
+            '\nRent Cost *Per Week* : ', '$1,000',
             '\nTOTAL RETAIL PRICE: ', '$100,000'
         ]
 
@@ -177,6 +181,7 @@ def main():
             '\nTires: ', '33 in. Nitto Mud Grapplers',
             '\nLightening: ', 'K.C Fog Lights X2(Roof), 32 in. LED Light Bars X2(Reverse), Go Light',
             '\nRe-Enforcement: ', 'Ranch Hand Front Bumper "Black" w/ Grill Guard, Custom Rear Bumper Open Country "Black", Bush Wacker Fender Flares',
+            '\nRental Cost *Per Week* : ', '$340',
             '\nTOTAL RETAIL PRICE: ', '$39,800'
             ]
         for detail in details:
@@ -202,6 +207,7 @@ def main():
                     '\nTires: ', '40 in. low.prof Nitto Mud Grappler',
                     '\nLightening: ', '52 in. Halo Concepts Lightbar, 52 in. Creed Lightbar (STACKED IN ROOF RACK), Fog Life LED Spot Lights, 10000K Hid (low&high), 52 in. 6000K HID Projector (Reverse) By Rough Country)',
                     '\nRe-Enforcement: ', 'Full Rough Country Bumper Re-Enforcement (bumper"black", grill"black", brush guard "black"), Rear Bumper by Rough Country',
+                    '\nRental Cost *Per Week* : ', '$500',
                     '\nTOTAL RETAIL PRICE: ', '$57,500'
                 ]
 
@@ -227,6 +233,7 @@ def main():
             '\nTires: ', 'Nitto Trail Grappler',
             '\nLightening: ', 'Halo Concepts Projector On Headlights, Custom 12000K HID "Low&High", 52 in. Halo Concepts Lightbar "Hood", 32 in. Halo Concepts Lightbar "Brushguard", 12 in. Halo Concepts Lightbar X2 "Bed Rails""BACKWARDS", GO-Light',
             '\nRe-Enforcement: ', 'Custom Made Full Metal Fenders And Bumper + Grill, Costom Made Full Metal "Rear" Bumper, Bush-Waker Fender Flares, Windshield Pretection Bar,'
+            '\nRental Cost *Per Week* : ', '$430',
             '\n\nTOTAL RETAIL PRICE: ' , '$53,700'
         ]
         for detail in details:
@@ -263,6 +270,7 @@ def main():
             '\nTires: ', '37 in. Nitto Mud Grapples',
             '\nLightening: ', '52 in. LED Lightbar "roof" ',
             '\nRe-Enforcement: ', 'Full Ranch Hand Bumper "Grille and Bumper + Headlight Protector + Windshield Bar Protector, Rear Full Ranch Hand Metal Guard "Tailights',
+            '\nRent Cost *Per Week* : ', '$350',
             '\nTOTAL RETAIL PRICE: ', '$44,800\n'
         ]
 
@@ -288,6 +296,7 @@ def main():
             '\nTires: ', 'Nitto Mud Grapplers',
             '\nLightening: ', '52 in. Creed Lightbar "ROOF", Halo Concepts "HEADLIGHTS&TAILIGHTS", Go-Light, K.C Lights In BrushGuard, Reverse LED Pods',
             '\nRe-Enforcement: ', 'Ranch Hand Brush Guard, Bush Wacker Fender Flares, Roll Cage',
+            '\nRent Cost *Per Week* :', '$550',
             '\nTOTAL RETAIL PRICE: ', '$68,900\n'
         ]
         for detail in details:
@@ -312,23 +321,31 @@ def main():
             '\nTires: ', '40 in. Nitto Mud Grappler',
             '\nLightening: ', '52 in. Halo Concept Lightbar X2 "STACKED" "FRONTWARDS AND BACKWARDS", Blacked Out Halo Concept Headlights, Blacked Out Halo Taillights, 10000K HID "Low&High"',
             '\nRe-Enforcement: ', 'Ranch Hand Blacked Out Bumper, Ranch Hand Blacked Out Steel Rear Bumper, Rack Protector, Bush Wacker Fender Flares, Police Interceptor SpotLight "Driver Side"',
+            '\nRent Cost *Per Week* : ', '$450',
             '\nTOTAL RETAIL PRICE: ', '$59,900\n'
         ]
 
         for detail in details: 
             print(detail)
 
+    def check_out():
+                        vehicle_rent = int(weeks) * step_2
+                        sales_tax = 0.07
+                        total_tax = int(vehicle_rent) * float(sales_tax) + int(vehicle_rent)
+                        replacement_value = 0.10 * vehicle_retail_price
+                        total_cost = total_tax + replacement_value
+                        print('Thank You For Renting From Vargas\' Off-Road Rentals! \n\nYour Total Rent Cost is ' + '$' + str(total_cost) + '. Have A Wonderful Day!')
 
-        print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
-        time.sleep(1)
-        name = slow_type('\n\nName: ')
-        age = slow_type('\n\nAge: ')
-        job = slow_type('\n\nJob: ')
-        income = slow_type('\n\nWeekly Income: ')
-        residency = slow_type('\n\nResidency *STATE ONLY* : ')
-        expenses = slow_type('\n\nWeekly Expenses: ')
-        vehicle = slow_type('\nVehicle Renting: ')
-        weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+    def totaled():
+        sales_tax = 0.07
+        totaled_vehicle_price = replacement_value * sales_tax + replacement_value
+        print('I Am Very Sorry About Your Accident. Your Replacement Cost is $' + str(replacement_value) + ' plus 7% tax, \n\nWhich Equals to $' + str(totaled_vehicle_price))
+    
+    def damaged():
+        sales_tax = 0.07
+        damaged_vehicle_cost = int(damage_cost) * sales_tax + int(damage_cost)
+        print('\n\nI Am Very Sorry About Your Accident. Your Damage Cost Is', damage_cost, 'plus 7% tax, \n\nWhich Equals to $' + str(damaged_vehicle_cost))
+
 
     print('\n\nWELCOME TO VARGAS\' OFF-ROAD RENTALS!')
     time.sleep(1)
@@ -353,90 +370,100 @@ def main():
             step_2 = slow_type('\n\nWhich One Of These Vehicles Suit Your Needs The Most? ')
         
             if step_2 == '1':
+                step_2 == 300
+                vehicle_retail_price = 41800
                 slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
                 silverado(details)
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                def application():
-                    print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
+                time.sleep(.5)
+                print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
+                time.sleep(1)
+                slow_type('WE ARE ABOUT TO RUN YOUR APPLICATION THROUGH OUR SYSTEM.\n \
+                RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
+                IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
+                IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
+
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
                     time.sleep(1)
-                    name = slow_type('\n\nName: ')
-                    age = slow_type('\n\nAge: ')
-                    job = slow_type('\n\nJob: ')
-                    income = slow_type('\n\nWeekly Income: ')
-                    residency = slow_type('\n\nResidency *STATE ONLY* : ')
-                    expenses = slow_type('\n\nWeekly Expenses: ')
-                    vehicle = slow_type('\nVehicle Renting: ')
-                    weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
-                    
-                    time.sleep(.5)
-                    approval = str(income) - str(expenses)
-                    print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
-                    time.sleep(1)
-                    slow_type('WE ARE ABOUT TO RUN YOUR APPLICATION THROUGH OUR SYSTEM.\n \
-                    RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
-                    IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
-                    IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                    \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
                     time.sleep(2)
-                    print('\n\n\n\nProcessing Application...\n\n\n')
+                    exit()
+                elif income < '360':
+                    print('\n\nChallenging A Red Flag...\n\n')
                     time.sleep(1)
-                    print('\n\n\nWe Are Almost There...\n\n\n')
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $360 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
                     time.sleep(2)
-                    slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
 
-                    if age < '21':
-                        print('\n\nChallenging A Red Flag...\n\n')
-                        time.sleep(1)
-                        print('\n\nDECLINED! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM US. \nTHANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
-                        time.sleep(2)
-                        exit()
-                    elif income < '300':
-                        print('\n\nChallenging A Red Flag...\n\n')
-                        time.sleep(1)
-                        print('DECLINED! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $300 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
-                        time.sleep(2)
-                        exit()
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
 
-
-                    elif residency != 'MS':
-                        print('\n\nChallenging A Red Flag...\n\n')
-                        time.sleep(1)
-                        print('\n\nDECLINED! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
-                        time.sleep(2)
-                        exit()
-                    elif approval < '300':
-                        print('\n\nChallenging A Red Flag...\n\n')
-                        time.sleep(2)
-                        print('\n\nDECLINED! SORRY, YOU MUST HAVE AN AMOUNT OF AT LEAST $300 WEEKLY TO RENT THIS VEHICLE! \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS! HAVE A GREAT DAY!')
-                        time.sleep(2)
-                        exit()
-
-                    else:
-                        print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
                     
-                    
-
-                application()
+                        
+                        
+                
+                
                 
 
 
             elif step_2 == '2':
+                step_2 == 200
+                vehicle_retail_price = 26400
                 slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n\n')
                 colorado_details(details)
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -444,19 +471,65 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
-            
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
+
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '300':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $300 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
+                    
             elif step_2 == '3':
+                step_2 = 385
+                vehicle_retail_price = 54200
                 slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n\n')       
                 tahoe(details)
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -464,19 +537,64 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
-            
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
+
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '400':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $460 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
             elif step_2 == '4':
+                step_2 = 1000
+                vehicle_retail_price = 100000 
                 slow_type('\n\nPlease Hit "Enter" To See Details On This Vehicle...\n\n\n\n\n\n')
                 silverado_duramax()
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -484,8 +602,40 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
 
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '1200':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $1,200 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)     
 
 
         elif brand_choice == '2':
@@ -493,16 +643,28 @@ def main():
             list_gmc_vehicles()
             step_2 = slow_type('\n\nWhich Vehicle Suits You The Best? Please Choose.\n\n')
             if step_2 == '1':
+                step_2 = 400
+                vehicle_retail_price = 39800
                 slow_type('\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
                 sierra()
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -510,19 +672,66 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
+
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '400':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $400 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
+                    
 
             elif step_2 == '2':
+                step_2 = 500
+                vehicle_retail_price = 57500
                 slow_type('\n\nPlease hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
                 sierra_duramax()
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -530,19 +739,65 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
 
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '580':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $580 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
+                    
             elif step_2 == '3':
+                step_2 = 430
+                vehicle_retail_price = 53700
                 slow_type('\n\nPlease hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
                 denali()
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -550,8 +805,42 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
 
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '500':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $500 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
+                    
         elif brand_choice == '3':
             slow_type('\n\nTo Look At The List Of Vehicles Of This Brand Press "ENTER".\n\n\n')
             list_ford_vehicles()
@@ -559,16 +848,28 @@ def main():
 
             step_2 = slow_type('\n\nWhich Vehicle Suits You The Best? Please Choose.\n\n')
             if step_2 == '1':
+                step_2 = 350
+                vehicle_retail_price = 44800
                 slow_type('\n\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
                 f150_platinum()
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -576,19 +877,65 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
 
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '400':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $400 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
+                    
             elif step_2 == '2':
+                step_2 = 550
+                vehicle_retail_price = 68900
                 slow_type('\n\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
                 raptor()
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -596,19 +943,65 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
 
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '700':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $700 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
+                    
             elif step_2 == '3':
+                step_2 = 450
+                vehicle_retail_price = 59900
                 slow_type('\n\n\nPlease Hit "ENTER" To See Details On This Vehicle...\n\n\n\n\n')
                 powerstroke()
                 time.sleep(1.5)
                 slow_type('\n\nTo Proceed Please Press "ENTER".\n\n\n\n')
+                    
                 slow_type('\n\n\nYOU ARE ABOUT TO ENTER THE APPLICATION MODE.\n PLEASE ENTER ALL INFORMATION AS ACCURATE TO YOUR KNOWLEDGE AS POSSIBLE.\n \
                 IF YOU ARE ASKED TO ENTER A WORD OR ANY ALPHABETIC CHARACTER,\n PLEASE DO SO WITH REASONABLE LENGHT. (SHORT) \n \
                 IF YOU ARE ASKED TO ENTER A NUMBER, PLEASE DO SO ACCURATELY.\n ANY OF THE INFORMATION YOU ENTER MAY BE USED IN THE FUTURE.\n\n\nPRESS "ENTER"\n\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Application...\n')
                 time.sleep(.8)
-                application()
+                print('\n\n                                                                       APPLICATION\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                time.sleep(1)
+                name = slow_type('\n\nName: ')
+                age = slow_type('\n\nAge: ')
+                job = slow_type('\n\nJob: ')
+                income = slow_type('\n\nWeekly Income: ')
+                residency = slow_type('\n\nResidency *STATE ONLY* Ex:TX, NY, AL   : ')
+                vehicle = slow_type('\nVehicle Renting: ')
+                weeks = slow_type('\nWeeks Of Rent Desired -> *Notice We Our Least Period Of Time To Rent Is One Week* <- : ')
+                
                 time.sleep(.5)
                 print('\n\n\n\n\n\n\n\nFinished Application...\n\n')
                 time.sleep(1)
@@ -616,8 +1009,42 @@ def main():
                 RESULTS WILL BE PRESENTED AS "APPROVED" OR "DENIED".\n \
                 IF YOUR ARE APPROVED, FURTHER INSTRUCTIONS WILL BE ASSIGNED.\n \
                 IF YOU ARE DENIED, YOU WILL AUTOMATICALLY BE EJECTED FROM THIS PROGRAM.\n \
-                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!! ')
+                \n\nTHANK YOU VERY MUCH FOR VISITING VARGAS\' OFF-ROAD RENTALS!!            Press "ENTER" ')
+                time.sleep(2)
+                print('\n\n\n\nProcessing Application...\n\n\n')
+                time.sleep(1)
+                print('\n\n\nWe Are Almost There...\n\n\n')
+                time.sleep(2)
+                slow_type('\n\nRESULTS RECEIVED!                PRESS "ENTER" TO VIEW. ')
 
+                if age < '21':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, WE TRIED! BUT YOU MUST BE 21 OR OLDER TO RENT A VEHICLE FROM Us. \n\n\n                                   THANK YOU FOR CHOOSING US, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif income < '600':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! YOU MUST HAVE A WEEKLY INCOME OF AT LEAST $600 TO RENT THIS VEHICLE. \n\nTHANK YOU FOR CHOOSING VARGAS\' OFF-ROAD RENTALS, HAVE A GREAT DAY!')
+                    time.sleep(2)
+                    exit()
+                elif residency != 'MS':
+                    print('\n\nChallenging A Red Flag...\n\n')
+                    time.sleep(1)
+                    print('\n\n\n\n\n\n\n                                                                       DECLINED!  \n\n\n\n\n! SORRY, YOU MSUT BE A RESIDENT IN MISSISSIPPI.\n\n')
+                    time.sleep(2)
+                    exit()
+
+                else:
+                    print('\n\n\n\n\n\n\n\n\n\n\n\n\n                                                               APPROVED!!\n\n\n\n\n\n\n\n\n\n\n')
+                    time.sleep(2)
+
+                    check_out()
+                    print('\n\n\n\nLeaving Program...\n\n\n\n\n')
+                    time.sleep(2)
+                    
+                    
             
             
 
@@ -652,6 +1079,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
                 elif details == '2':
                     print('\n\nLoading 2013 Chevrolet Colorado z71 Details...\n\n')
                     time.sleep(2)
@@ -660,6 +1088,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
                 elif details == '3':
                     print('\n\nLoading 2015 Chevrolet Tahoe 1500 z71 Details...\n\n')
                     time.sleep(2)
@@ -668,6 +1097,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
                 elif details == '4':
                     print('\n\nLoading 2007 Chevrolet Silverado DuraMax 2500 HD z71 Unique Edition Details...\n\n')
                     time.sleep(2)
@@ -676,6 +1106,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
             elif brand_choice == '2':
                 print('\n\n\n\n\n\nLoading GMC Inventory...\n\n\n\n\n')
                 time.sleep(2)
@@ -691,6 +1122,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
                 elif details == '2':
                     print('\n\n\nLoading 2011 GMC Sierra 2500 HD DuraMax z71 Details...\n\n\n\n')
                     time.sleep(2)
@@ -699,6 +1131,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
                 elif details == '3':
                     print('\n\n\nLoading 2017 GMC Yukon Denali High Country HD z71 Details...\n\n\n')
                     time.sleep(2)
@@ -707,6 +1140,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
             elif brand_choice == '3':
                 print('\n\n\n\n\nLoading Ford Inventory...\n\n\n\n\n\n')
                 time.sleep(2)
@@ -722,6 +1156,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
                 elif details == '2':
                     print('\n\nLoading 2013 Ford F-150 Raptor Details...\n\n')
                     time.sleep(2)
@@ -730,6 +1165,7 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
                 elif details == '3':
                     print('\n\nLoading 2017 Ford F-250 PowerStroke Details...\n\n')
                     time.sleep(2)
@@ -738,21 +1174,199 @@ def main():
                     EXIT= slow_type('To Check Another Vehicle Out Please Press "ENTER".            To EXIT Program Please Type "STOP". ')
                     if EXIT== 'STOP':
                         break
+                    main()
 
 
     elif step_1 == '4':
-        print('\n\n\n\n\n\n\n\n\n\n\nLoading All Vehicles...\n\n\n\n')
-        time.sleep(1.5)
+        print('\n\n\n\n\n\n\n\n\n\n\nLoading All Vehicles... \n\n')
+        time.sleep(2)
+        slow_type('All Vehicles Loaded! Press "ENTER"\n\n\n\n\n\n\n')
         list_vehicles()
         list_gmc_vehicles()
         list_ford_vehicles()
+        time.sleep(1)
+        slow_type('\n\nTo Go Back To Main Press "ENTER"...\n\n')
+        print('Loading Main...')
+        time.sleep(1)
+        main()
+    
+    elif step_1 == '5':
+        print('\n\nYou Are Repoting An Accident!\n\n')
+        time.sleep(1.3)
+        slow_type('\n\nPlease Fill In The Following Paperwork About Your Accident... \n\n\nPRESS "ENTER"\n\n\n')
+        print_brands()
+        brand_involved = slow_type('\n\nEnter Brand Of Vehicle Involved: ')
+        if brand_involved == '1':
+            list_vehicles()
+            vehicle_involved = slow_type('\n\nEnter Vehicle Involved: ')
+            
+            if vehicle_involved == '1':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 41800
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
 
-    # elif step_1 == '5':
-    #     #your code here
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
 
 
-    # else:
-    #     your code here
+            
+            elif vehicle_involved == '2':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 26400
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+
+            elif vehicle_involved == '3':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 54200
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+
+            elif vehicle_involved == '4':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 100000
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+        elif brand_involved == '2':
+            list_gmc_vehicles()
+            vehicle_involved = slow_type('\n\nEnter Vehicle Involved: ')
+            
+            if vehicle_involved == '1':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 39800
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+            
+            elif vehicle_involved == '2':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 57500
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+
+            elif vehicle_involved == '3':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 53700
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+
+        elif brand_involved == '3':
+            list_ford_vehicles()
+            vehicle_involved = slow_type('\n\nEnter Vehicle Involved: ')
+            
+            if vehicle_involved == '1':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 44800
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+            
+            elif vehicle_involved == '2':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 68900
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+            elif vehicle_involved == '3':
+                type_of_accident = slow_type('\n\nWas This Vehicle "totaled" or "damaged"? : ')
+                if type_of_accident == 'totaled':
+                    replacement_value = 59900
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+
+                    totaled()
+                elif type_of_accident == 'damaged':
+                    damage_cost = slow_type('\n\nHow Much Is The Damage Cost? : ')
+                    print('\n\nCalculating...\n\n\n')
+                    time.sleep(2)
+                    
+                    damaged()
+
+
 
 if __name__ == '__main__':
     main()
