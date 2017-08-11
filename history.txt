@@ -1,0 +1,16 @@
+
+Rent = Vehicle....., Rental-Price......, Weeks, Replacement-Value......., Total....
+Return = Return..., Vehicle...., Weeks....., Replacement-Value
+
+2014 Chevrolet Silverado 1500 z71, 300, 1, 41800, 4501.0
+2014 Chevrolet Silverado 1500 z71, 300, 1, 41800, 4501.0
+2013 GMC Sierra 1500 z71, 300, 2, 41800, 4822.0
+RETURN, 2014 Chevrolet Silverado 1500 z71, 5, 41800
+2007 Chevrolet Silverado DuraMax 2500 HD Unique Edition, 300, 4, 41800, 5464.0
+RETURN, 2013 GMC Sierra 1500 z71, 3, 41800
+2015 Chevrolet Tahoe 1500 z71, 300, 3, 41800, 5143.0
+2014 Chevrolet Silverado 1500 z71, 300, 2, 41800, 4822.0
+2017 GMC Yukon Denali High Country z71, 300, 4, 41800, 5464.0
+2017 Ford F-250 PowerStroke FX-4, 1000, 1, 100000, 11070.0
+2013 Chevrolet Colorado z71, 300, 3, 41800, 5143.0
+RETURN, 2013 Chevrolet Colorado z71, 2, 41800
