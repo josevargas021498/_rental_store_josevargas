@@ -3,23 +3,26 @@ def print_options_1():
     Prints out all of our options available to the user.
     """
     options_1 = [
-        '\n1. Rent A Vehicle', '\n2. Return A Vehicle',
-        '\n3. Look At Inventory', '\n4. Look At Completely Inventory',
-        '\n5. Report An Accident'
+        '\n1.Rent-A-Vehicle',
+        '\n2.Return-A-Vehicle',
+        '\n3.View-Transaction-History'
     ]
     for option in options_1:
         print(option)
 
 
-def total_cost(rental_cost, weeks, replacement_value):
-    """ (int, int, float) -> (float)
-    Returns the rental cost with taxes.
+def total_rental_cost(rental_price, weeks, replacement_cost):
+    """(para) -> (float)
+    Returns Total for the rent of a
+    vehicle from my company.
     """
     tax = 0.07
     deposit = 0.10
 
-    rent_cost = rental_cost * int(weeks)
-    rent_cost_w_tax = rent_cost * int(tax) + rent_cost
-    dep = int(deposit) * replacement_value
-    total = rent_cost_w_tax + dep
+    cost_wo_tax = int(rental_price) * int(weeks)
+    cost_w_tax = int(cost_wo_tax) * float(tax) + cost_wo_tax
+    depos = int(replacement_cost) * float(deposit)
+    total = cost_w_tax + depos
     return total
+
+
